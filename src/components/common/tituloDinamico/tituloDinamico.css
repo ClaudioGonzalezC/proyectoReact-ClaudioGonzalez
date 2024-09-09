@@ -1,0 +1,12 @@
+.dynamic-title {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.1rem;
+    color:#1c1c1c;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color: red; /* Puedes cambiar el color del texto tachado */
+    transition: color 0.4s ease-in-out; /* Transición suave al cambiar palabra */
+}

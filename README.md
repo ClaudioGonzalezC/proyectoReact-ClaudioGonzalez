@@ -1,8 +1,39 @@
-# React + Vite
+- public/
+  - vite.svg
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- src/
+  - components/
+    - common/
+      - cartWidget/
+        - CartWidget.jsx
+      - tituloDinamico/
+        - tituloDinamico.css
+        - TituloDinamico.jsx
+    - layouts/
+      - footer/
+        - (No files shown, but this is the folder for Footer components)
+      - navbar/
+        - navbar.css
+        - Navbar.jsx
+  - pages/
+    - cart/
+      - (No files shown, but this is the folder for Cart components/pages)
+    - disclaimer/
+      - disclaimer.css
+      - Disclaimer.jsx
+    - itemListContainer/
+      - itemListContainer.css
+      - ItemListContainer.jsx
 
-Currently, two official plugins are available:
+  - App.css
+  - App.jsx
+  - index.css
+  - main.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- .gitignore
+- eslint.config.js
+- index.html
+- package-lock.json
+- package.json
+- README.md
+- vite.config.js
