@@ -1,10 +1,9 @@
-import CartWidget from "../../common/cartWidget/CartWidget";
 import TituloDinamico from "../../common/tituloDinamico/TituloDinamico";
-
+import CartWidget from "../../common/cartWidget/CartWidget"; // Asegúrate de ajustar la ruta si es diferente
 import "./navbar.css";
 
 const Navbar = () => {
-  return ( 
+  return (
     <div className="containerNav">
       <TituloDinamico />
       <ul>
@@ -14,6 +13,7 @@ const Navbar = () => {
       </ul>
       <CartWidget />
     </div>
-  )
+  );
 };
+
 export default Navbar;

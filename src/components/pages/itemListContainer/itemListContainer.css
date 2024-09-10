@@ -1,0 +1,11 @@
+.containerList {
+    width: 1600px;
+    margin: 10px auto;
+}
+h1 {
+    color:#1c1c1c;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Noto Sans JP", sans-serif;
+}
