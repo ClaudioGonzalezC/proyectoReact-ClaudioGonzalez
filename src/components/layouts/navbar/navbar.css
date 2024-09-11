@@ -6,7 +6,16 @@
     width: 1600px;
     margin: 10px auto;
 }
-.containerNav ul {
+.containerNavDark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 10px auto;
+    background-color:#000;
+    color:#fff;
+}
+.containerNav ul,.containerNavDark ul {
     display: flex;
     justify-content: center;
     gap:20px;
@@ -14,9 +23,8 @@
 li {
     list-style: none;
 }
-.containerNav ul li a {
+.containerNav ul li a,.containerNavDark ul li a {
     text-decoration: none;
-    color:#1c1c1c;
     font-size: 1rem;
     font-weight: 500;
     font-family: "Noto Sans JP", sans-serif;
